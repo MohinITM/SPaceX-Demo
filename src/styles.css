@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.margin-left-20px {
+    margin-left: 20px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.bg-light-gray {
+    background-color: lightgray
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.margin-b {
+    padding-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.mat-card {
+    background-color: white;
+    padding: 0;
+}

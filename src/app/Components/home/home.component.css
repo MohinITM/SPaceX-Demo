@@ -1,0 +1,29 @@
+.home-page {
+    background-color:#F1F3F6;
+    border:1px solid #605b5b
+}
+
+.padding-20px {
+    padding: 20px !important;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.line-through {
+    text-decoration-line: line-through;
+}
+
+.mat-spinner {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* margin: auto; */
+    z-index: 1;
+}
+
+
+

@@ -1,0 +1,12 @@
+<section class="home-page" role="main">
+    <mat-spinner *ngIf="!loadData"></mat-spinner>
+    <h5 style="padding-left: 24px;">SpaceX Launch Programs</h5>
+    <div class="row" style="padding-left: 20px;">
+        <div class="col-md-3">
+            <app-filter (action)="manageActions($event)" [launchYears]="launchYears"></app-filter>
+        </div>
+        <div *ngIf="loadData" class="col-md-9">
+            <app-product-list (action)="manageActions($event)" [productLists]="productLists"></app-product-list>
+        </div>
+    </div>
+</section>
